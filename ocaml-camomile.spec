@@ -38,7 +38,7 @@ developing applications that use %{name}.
 
 %package        data
 Summary:        Data files for %{name}
-Group:          Development/Libraries
+Group:          Development/Other
 Requires:       %{name} = %{version}-%{release}
 
 
