@@ -1,6 +1,6 @@
 %define name	ocaml-camomile
 %define version	0.7.1
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -12,7 +12,7 @@ Group:      Development/Other
 # https://www.redhat.com/archives/fedora-legal-list/2008-March/msg00005.html
 License:        LGPLv2+
 URL:            http://sourceforge.net/projects/camomile/
-Source0:        http://downloads.sourceforge.net/camomile/camomile-0.7.1.tar.bz2
+Source0:        http://downloads.sourceforge.net/camomile/camomile-%{version}.tar.bz2
 BuildRequires:  ocaml
 BuildRequires:  ocaml-findlib
 BuildRequires:  camlp4
