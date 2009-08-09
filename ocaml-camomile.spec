@@ -1,6 +1,6 @@
 %define name	ocaml-camomile
-%define version	0.7.1
-%define release	%mkrel 4
+%define version	0.7.2
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
