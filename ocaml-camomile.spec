@@ -1,6 +1,6 @@
 %define name	ocaml-camomile
-%define version	0.7.2
-%define release	%mkrel 2
+%define version	0.8.1
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -62,10 +62,10 @@ make install \
     DATADIR=%{buildroot}%{_datadir} \
     DESTDIR=%{buildroot} \
     OCAMLFIND_DESTDIR=%{buildroot}%{_libdir}/ocaml
-mv %{buildroot}%{_bindir}/camomilecharmap.opt \
-    %{buildroot}%{_bindir}/camomilecharmap
-mv %{buildroot}%{_bindir}/camomilelocaledef.opt \
-    %{buildroot}%{_bindir}/camomilelocaledef
+
+pushd tools
+for f in *.opt ; do  install -m 0755 $f %{buildroot}%{_bindir}/${f%.opt} ; done
+popd
 
 %clean
 rm -rf %{buildroot}
@@ -77,8 +77,8 @@ rm -rf %{buildroot}
 %{_libdir}/ocaml/camomile/*.cmi
 %{_libdir}/ocaml/camomile/*.cma
 %{_libdir}/ocaml/camomile/META
-%{_bindir}/camomilecharmap
-%{_bindir}/camomilelocaledef
+%{_bindir}/camomile*
+%{_bindir}/parse_*
 
 %files devel
 %defattr(-,root,root)
