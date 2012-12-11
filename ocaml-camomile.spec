@@ -93,3 +93,41 @@ rm -rf %{buildroot}
 %doc README
 %{_datadir}/camomile
 
+
+
+%changelog
+* Wed Oct 06 2010 Funda Wang <fwang@mandriva.org> 0.8.1-2mdv2011.0
++ Revision: 583737
+- rebuild
+
+* Thu Aug 12 2010 Florent Monnier <blue_prawn@mandriva.org> 0.8.1-1mdv2011.0
++ Revision: 569311
+- updated version
+
+* Mon Jan 25 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.7.2-2mdv2010.1
++ Revision: 496360
+- rebuild
+
+* Mon Aug 10 2009 Florent Monnier <blue_prawn@mandriva.org> 0.7.2-1mdv2010.0
++ Revision: 413824
+- new version
+
+* Sat Jun 27 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.7.1-4mdv2010.0
++ Revision: 390027
+- rebuild
+
+  + Florent Monnier <blue_prawn@mandriva.org>
+    - version tag
+
+* Wed Dec 24 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.7.1-2mdv2009.1
++ Revision: 318334
+- move non-devel files in main package
+- site-lib hierarchy doesn't exist anymore
+
+* Thu Aug 14 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.7.1-1mdv2009.0
++ Revision: 271896
+- import ocaml-camomile
+
+
+* Thu Aug 14 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.7.1-1mdv2009.0
+- first mdv release, stolen from redhat
