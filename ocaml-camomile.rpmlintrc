@@ -1,0 +1,2 @@
+# False positive because of characters in path
+addFilter("E: unexpanded-macro")
