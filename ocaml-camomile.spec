@@ -4,7 +4,7 @@
 Summary:	Unicode library for OCaml
 Name:		ocaml-camomile
 Version:	0.8.4
-Release:	1
+Release:	2
 # Several files are MIT and UCD licensed, but the overall work is LGPLv2+
 # and the LGPL/GPL supercedes compatible licenses.
 # https://www.redhat.com/archives/fedora-legal-list/2008-March/msg00005.html
