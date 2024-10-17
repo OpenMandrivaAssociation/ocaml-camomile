@@ -10,7 +10,7 @@ Release:	2
 # https://www.redhat.com/archives/fedora-legal-list/2008-March/msg00005.html
 License:	LGPLv2+
 Group:		Development/Other
-Url:		http://sourceforge.net/projects/camomile/
+Url:		https://sourceforge.net/projects/camomile/
 Source0:	http://downloads.sourceforge.net/camomile/camomile-%{version}.tar.bz2
 Source10:	%{name}.rpmlintrc
 BuildRequires:	camlp4
